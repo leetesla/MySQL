@@ -1,5 +1,5 @@
-###Optimization Overview  优化概览
-###1.Optimizing SQL Statements  优化SQL语句
+### Optimization Overview  优化概览
+### 1.Optimizing SQL Statements  优化SQL语句
 - 1.1 Optimizing SELECT Statements  优化SELECT语句
     + (1)WHERE Clause Optimization  WHERE子句优化
     + (2)Range Optimization  范围查询的优化
@@ -34,7 +34,7 @@
     + 权限设置越复杂，SQL语句的开销就越大。简化由GRANT语句建立的权限，可以使MySQL在客户端执行语句时减少权限检查的开销。
 - 1.6 Other Optimization Tips  其他的优化建议
 
-###2.Optimization and Indexes  优化索引
+### 2.Optimization and Indexes  优化索引
 - 2.1 How MySQL Uses Indexes  MySQL是如何使用索引的
 - 2.2 Primary Key Optimization  主键索引优化
 - 2.3 Foreign Key Optimization  外键优化
@@ -46,7 +46,7 @@
 - 2.9 Use of Index Extensions  索引扩展的使用
 
 
-###3.Optimizing Database Structure  优化数据库结构
+### 3.Optimizing Database Structure  优化数据库结构
 - 3.1 Optimizing Data Size  优化数据大小
 - 3.2 Optimizing MySQL Data Types  优化数据类型
     + (1)Optimizing for Numeric Data  数值类型的优化
@@ -59,7 +59,7 @@
 - 3.4 Internal Temporary Table Use in MySQL  临时表的使用
 
 
-###4.Optimizing for InnoDB Tables  InnoDB表的优化
+### 4.Optimizing for InnoDB Tables  InnoDB表的优化
 - 4.1 Optimizing Storage Layout for InnoDB Tables  优化InnoDB表的存储方式
 - 4.2 Optimizing InnoDB Transaction Management  优化InnoDB事务管理
 - 4.3 Optimizing InnoDB Read-Only Transactions  优化InnoDB只读事务
@@ -72,29 +72,29 @@
 - 4.10 Optimizing InnoDB for Systems with Many Tables  系统有多个表时InnoDB的优化
 
 
-###5.Optimizing for MyISAM Tables  MyISAM表的优化
+### 5.Optimizing for MyISAM Tables  MyISAM表的优化
 - 5.1 Optimizing MyISAM Queries  优化MyISAM表的查询
 - 5.2 Bulk Data Loading for MyISAM Tables  MyISAM表加载大量数据的优化
 - 5.3 Optimizing REPAIR TABLE Statements  优化REPAIR TABLE语句
 
 
-###6.Optimizing for MEMORY Tables  MEMORY表的优化
+### 6.Optimizing for MEMORY Tables  MEMORY表的优化
 
 
-###7.Understanding the Query Execution Plan  分析查询执行计划
+### 7.Understanding the Query Execution Plan  分析查询执行计划
 - 7.1 Optimizing Queries with EXPLAIN  用EXPLAIN分析查询语句
 - 7.2 EXPLAIN Output Format  EXPLAIN语句输出格式
 - 7.3 Extended EXPLAIN Output Format  扩展EXPLAIN语句输出格式
 - 7.4 Estimating Query Performance  评估查询性能
 
 
-###8.Controlling the Query Optimizer 管理查询优化器
+### 8.Controlling the Query Optimizer 管理查询优化器
 - 8.1 Controlling Query Plan Evaluation  控制查询计划的评估配置
 - 8.2 Switchable Optimizations  可切换的优化策略
 - 8.3 Index Hints  索引提示
 
 
-###9.Buffering and Caching  缓冲和缓存
+### 9.Buffering and Caching  缓冲和缓存
 - 9.1 InnoDB Buffer Pool Optimization  InnoDB缓冲池优化
 - 9.2 The MyISAM Key Cache  MyISAM索引缓存
     + (1)Shared Key Cache Access  索引缓存的共享访问
@@ -111,7 +111,7 @@
 - 9.4 Caching of Prepared Statements and Stored Programs 已处理语句和存储程序的缓存
 
 
-###10.Optimizing Locking Operations  优化锁操作
+### 10.Optimizing Locking Operations  优化锁操作
 - 10.1 Internal Locking Methods  内部锁操作
 - 10.2 Table Locking Issues  表的锁定问题
 - 10.3 Concurrent Inserts  批量插入
@@ -119,7 +119,7 @@
 - 10.5 External Locking  外部锁
 
 
-###11.Optimizing the MySQL Server  优化MySQL服务器
+### 11.Optimizing the MySQL Server  优化MySQL服务器
 - 11.1 System Factors  系统因素
 - 11.2 Optimizing Disk I/O  优化磁盘I/O
 - 11.3 Using Symbolic Links  使用符号链接
@@ -134,14 +134,14 @@
     + (2)DNS Lookup Optimization and the Host Cache  DNS查询优化和主机缓存
 
 
-###12.Measuring Performance(Benchmarking)  性能测试(Benchmarking)
+### 12.Measuring Performance(Benchmarking)  性能测试(Benchmarking)
 - 12.1 Measuring the Speed of Expressions and Functions  测试表达式和函数的速度
 - 12.2 The MySQL Benchmark Suite  MySQL基准测试套件
 - 12.3 Using Your Own Benchmarks  使用你自己的基准测试
 - 12.4 Measuring Performance with performance_schema  使用performance_schema测试性能
 
 
-###13.Examining Thread Information  查看线程信息
+### 13.Examining Thread Information  查看线程信息
 - 13.1 Thread Command Values  线程的指令值
 - 13.2 General Thread States  通用线程状态
 - 13.3 Delayed-Insert Thread States  延迟插入的线程状态
