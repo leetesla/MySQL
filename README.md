@@ -1,6 +1,3 @@
-# MySQL
-MySQL优化
-
 ### Optimization Overview  优化概览
 ### [1.Optimizing SQL Statements  优化SQL语句](https://github.com/leetesla/MySQL/blob/master/optimization/1.%E4%BC%98%E5%8C%96SQL%E8%AF%AD%E5%8F%A5.md)
 - 1.1 Optimizing SELECT Statements  优化SELECT语句
