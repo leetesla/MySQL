@@ -2,7 +2,7 @@
 MySQL优化
 
 ### Optimization Overview  优化概览
-### 1.Optimizing SQL Statements  优化SQL语句(https://github.com/o1egl/paseto)
+### [1.Optimizing SQL Statements  优化SQL语句](https://github.com/o1egl/paseto)
 - 1.1 Optimizing SELECT Statements  优化SELECT语句
     + (1)WHERE Clause Optimization  WHERE子句优化
     + (2)Range Optimization  范围查询的优化
